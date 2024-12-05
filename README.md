@@ -12,4 +12,8 @@
 
     pip install pandas pyarrow
 
-    You can refer to the notebook file lab.ipynb 
+    You can refer to the notebook file load_data.ipynb 
+
+# convert our load_data notebook to a python script
+
+     jupyter nbconvert --to=script load_data.ipynb 
